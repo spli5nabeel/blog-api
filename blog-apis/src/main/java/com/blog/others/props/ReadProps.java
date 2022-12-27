@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class ReadProps {
 
-	@Value("${ex.service.url}")
-	private String URL;
-	
-	public String returnURL() {
-		return URL;
-	}
+//	@Value("${ex.service.url}")
+//	private String URL;
+//	
+//	public String returnURL() {
+//		return URL;
+//	}
 }
